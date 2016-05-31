@@ -24,7 +24,15 @@
 
 - (id<SPTService>)serviceWithIdentifier:(NSString *)identifier
 {
-    return self.services[identifier];
+    id<SPTService> const service = self.services[identifier];
+    
+    for (NSString *dependencyIdentifier in service.dependencies) {
+        id<SPTService> const dependency = [self serviceWithIdentifier:dependencyIdentifier];
+        [dependency configureWithServiceSystem:self];
+    }
+    
+    [service configureWithServiceSystem:self];
+    return service;
 }
 
 @end

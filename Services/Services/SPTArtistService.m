@@ -28,4 +28,16 @@
     
 }
 
+#pragma mark - SPTService
+
+- (NSSet<NSString *> *)dependencies
+{
+    return [NSSet new];
+}
+
+- (void)configureWithServiceSystem:(SPTServiceSystem *)serviceSystem
+{
+    // Grab dependencies
+}
+
 @end

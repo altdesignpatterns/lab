@@ -12,7 +12,6 @@
 		8A6126C51CFD5C790024E479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A6126C41CFD5C790024E479 /* Assets.xcassets */; };
 		8A6126C81CFD5C790024E479 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A6126C61CFD5C790024E479 /* LaunchScreen.storyboard */; };
 		8A6126D31CFD5CF10024E479 /* SPTServiceSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6126D21CFD5CF10024E479 /* SPTServiceSystem.m */; };
-		8A6126D61CFD5D7E0024E479 /* UIApplication+SPTServiceSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6126D51CFD5D7E0024E479 /* UIApplication+SPTServiceSystem.m */; };
 		8A6126DA1CFD5FB40024E479 /* SPTArtistService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6126D91CFD5FB40024E479 /* SPTArtistService.m */; };
 /* End PBXBuildFile section */
 
@@ -27,8 +26,6 @@
 		8A6126D01CFD5CA20024E479 /* SPTService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SPTService.h; sourceTree = "<group>"; };
 		8A6126D11CFD5CF10024E479 /* SPTServiceSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTServiceSystem.h; sourceTree = "<group>"; };
 		8A6126D21CFD5CF10024E479 /* SPTServiceSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTServiceSystem.m; sourceTree = "<group>"; };
-		8A6126D41CFD5D7E0024E479 /* UIApplication+SPTServiceSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SPTServiceSystem.h"; sourceTree = "<group>"; };
-		8A6126D51CFD5D7E0024E479 /* UIApplication+SPTServiceSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SPTServiceSystem.m"; sourceTree = "<group>"; };
 		8A6126D81CFD5FB40024E479 /* SPTArtistService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPTArtistService.h; sourceTree = "<group>"; };
 		8A6126D91CFD5FB40024E479 /* SPTArtistService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPTArtistService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,8 +86,6 @@
 				8A6126D01CFD5CA20024E479 /* SPTService.h */,
 				8A6126D11CFD5CF10024E479 /* SPTServiceSystem.h */,
 				8A6126D21CFD5CF10024E479 /* SPTServiceSystem.m */,
-				8A6126D41CFD5D7E0024E479 /* UIApplication+SPTServiceSystem.h */,
-				8A6126D51CFD5D7E0024E479 /* UIApplication+SPTServiceSystem.m */,
 			);
 			name = SPTServiceSystem;
 			sourceTree = "<group>";
@@ -176,7 +171,6 @@
 				8A6126DA1CFD5FB40024E479 /* SPTArtistService.m in Sources */,
 				8A6126BD1CFD5C790024E479 /* AppDelegate.m in Sources */,
 				8A6126D31CFD5CF10024E479 /* SPTServiceSystem.m in Sources */,
-				8A6126D61CFD5D7E0024E479 /* UIApplication+SPTServiceSystem.m in Sources */,
 				8A6126BA1CFD5C790024E479 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +312,7 @@
 				8A6126CE1CFD5C790024E479 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
